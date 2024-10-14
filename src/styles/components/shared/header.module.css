@@ -1,0 +1,165 @@
+.header {
+  background: rgba(255, 255, 255, 0.75);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 60px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.headerLogo {
+  width: 60px;
+  height: 60px;
+}
+
+.header nav {
+  display: flex;
+}
+
+.header nav div {
+  gap: 20px;
+  align-items: center;
+}
+
+.largManu {
+  display: flex;
+}
+
+.smallMenu {
+  display: none;
+  color: #554469;
+}
+
+.button {
+  background: #ff9900;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #ffcc00;
+}
+
+button {
+  background: #00000000;
+  border: none;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header ul li a {
+  color: #333333;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.header ul li a:hover {
+  color: #ff9900;
+}
+
+.smallMenu {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -100%;
+  width: 65%;
+  min-width: 300px;
+  max-width: 400px;
+  background: #00000094;
+  transition: right 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px 0 0 20px;
+}
+
+.smallMenuShow {
+  right: 0;
+}
+
+.smallMenu > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.smallMenu > div > div {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  padding: 20px 60px;
+}
+
+.smallMenu > div > ul {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  align-items: start;
+  padding: 10px 40px;
+  gap: 30px;
+  color: #ffffff;
+}
+.smallMenu > div > ul > li > a {
+  color: #ffffff;
+}
+
+.hideMenu {
+  right: -100%;
+}
+
+.showMenu {
+  right: 0;
+}
+.headerNavBtnBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  padding: 10px 30px 10px 0px;
+}
+.menuToggeler {
+  position: fixed;
+  display: none;
+  color: #554469;
+  z-index: 100;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .largManu {
+    display: none;
+  }
+
+  .menuToggeler {
+    display: flex;
+  }
+  .header {
+    padding: 10px 20px;
+  }
+  .headerLogo {
+    width: 50px;
+    height: 50px;
+  }
+}

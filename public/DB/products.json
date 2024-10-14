@@ -1,0 +1,221 @@
+[
+    {
+        "id": "1",
+        "name": "Product 1",
+        "price": 19.99,
+        "quantity": 10,
+        "isFav" : false ,
+        "category": "Electronics",
+        "details" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia  doloribus nihil, veniam tempore aliquam eum maiores nostrum luptatibus quaerat quae deserunt, est minima ut iure suscipit sapiente corrupti quam! Nostrum?",
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "comment": "This product is amazing!",
+                "user": {
+                    "id": 1,
+                    "name": "User 1",
+                    "email": "user1@example.com"
+                },
+                "date": "2022-01-01",
+                "time": "January 1, 2024 12:00:00 UTC",
+                "replies": [
+                    {
+
+                    }]
+            }
+        ],
+        "images": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Product 2",
+        "price": 19.99,
+        "quantity": 10,
+        "isFav" : false ,
+        "category": "Electronics",
+        "details" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia  doloribus nihil, veniam tempore aliquam eum maiores nostrum luptatibus quaerat quae deserunt, est minima ut iure suscipit sapiente corrupti quam! Nostrum?",
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "comment": "This product is amazing!",
+                "user": {
+                    "id": 1,
+                    "name": "User 1",
+                    "email": "user1@example.com"
+                },
+                "date": "2022-01-01",
+                "time": "January 1, 2024 12:00:00 UTC",
+                "replies": [
+                    {
+
+                    }]
+            }
+        ],
+        "images": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Product 3",
+        "price": 19.99,
+        "quantity": 10,
+        "isFav" : false ,
+        "category": "Electronics",
+        "details" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia  doloribus nihil, veniam tempore aliquam eum maiores nostrum luptatibus quaerat quae deserunt, est minima ut iure suscipit sapiente corrupti quam! Nostrum?",
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "comment": "This product is amazing!",
+                "user": {
+                    "id": 1,
+                    "name": "User 1",
+                    "email": "user1@example.com"
+                },
+                "date": "2022-01-01",
+                "time": "January 1, 2024 12:00:00 UTC",
+                "replies": [
+                    {
+
+                    }]
+            }
+        ],
+        "images": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Product 4",
+        "price": 19.99,
+        "quantity": 10,
+        "isFav" : false ,
+        "category": "Electronics",
+        "details" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia  doloribus nihil, veniam tempore aliquam eum maiores nostrum luptatibus quaerat quae deserunt, est minima ut iure suscipit sapiente corrupti quam! Nostrum?",
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "comment": "This product is amazing!",
+                "user": {
+                    "id": 1,
+                    "name": "User 1",
+                    "email": "user1@example.com"
+                },
+                "date": "2022-01-01",
+                "time": "January 1, 2024 12:00:00 UTC",
+                "replies": [
+                    {
+
+                    }]
+            }
+        ],
+        "images": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Product 5",
+        "price": 19.99,
+        "quantity": 10,
+        "isFav" : false ,
+        "category": "Electronics",
+        "details" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia  doloribus nihil, veniam tempore aliquam eum maiores nostrum luptatibus quaerat quae deserunt, est minima ut iure suscipit sapiente corrupti quam! Nostrum?",
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "comment": "This product is amazing!",
+                "user": {
+                    "id": 1,
+                    "name": "User 1",
+                    "email": "user1@example.com"
+                },
+                "date": "2022-01-01",
+                "time": "January 1, 2024 12:00:00 UTC",
+                "replies": [
+                    {
+
+                    }]
+            }
+        ],
+        "images": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Product 6",
+        "price": 19.99,
+        "quantity": 10,
+        "isFav" : false ,
+        "category": "Electronics",
+        "details" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia  doloribus nihil, veniam tempore aliquam eum maiores nostrum luptatibus quaerat quae deserunt, est minima ut iure suscipit sapiente corrupti quam! Nostrum?",
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "comment": "This product is amazing!",
+                "user": {
+                    "id": 1,
+                    "name": "User 1",
+                    "email": "user1@example.com"
+                },
+                "date": "2022-01-01",
+                "time": "January 1, 2024 12:00:00 UTC",
+                "replies": [
+                    {
+
+                    }]
+            }
+        ],
+        "images": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Product 7",
+        "price": 19.99,
+        "quantity": 10,
+        "isFav" : false ,
+        "category": "Electronics",
+        "details" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia  doloribus nihil, veniam tempore aliquam eum maiores nostrum luptatibus quaerat quae deserunt, est minima ut iure suscipit sapiente corrupti quam! Nostrum?",
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "comment": "This product is amazing!",
+                "user": {
+                    "id": 1,
+                    "name": "User 1",
+                    "email": "user1@example.com"
+                },
+                "date": "2022-01-01",
+                "time": "January 1, 2024 12:00:00 UTC",
+                "replies": [
+                    {
+
+                    }]
+            }
+        ],
+        "images": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    }
+
+
+]
